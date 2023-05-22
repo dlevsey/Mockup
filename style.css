@@ -1,0 +1,337 @@
+/* styles.css */
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 150px;
+   
+    background-color: white;
+    text-decoration: double;
+    box-sizing: border-box;
+    top: 0;
+  }
+  
+  
+/* Header and navigation styles */
+  
+.header-left {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    margin-left: 0px; /* Adjust this value to change the space between the title and navbar */
+  }
+  
+.header-left-payment {
+    
+    align-items: center;
+    padding-top: 20px;
+    margin-left: 100px; /* Adjust this value to change the space between the title and navbar */
+  }
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+  
+.title {
+    color: rgb(0, 0, 0);
+    white-space: nowrap;
+    margin: 0;
+}
+.payment-processing-navbar {
+    margin-left: 0; /* Adjust this value as needed */
+  }
+  
+.navbar {
+    display: flex;
+    align-items: right;
+    justify-content: flex-start;
+    justify-content: flex-end;
+  }
+.header-right {
+    display: flex;
+    margin-left: 150px;
+}
+.banner{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 150px;
+}
+.banner img{
+    width: 100%;
+    height: 200px; 
+}
+.nav-item {
+    position: relative;
+}
+  
+.nav-button {
+    display: block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 24px 32px;
+    transition: background-color 0.3s;
+}
+  
+.nav-button:hover {
+    background-color: white;
+    text-decoration: underline;
+    color: red;
+}
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    
+}
+
+ol li::marker {
+    font-size: 3em;
+}
+
+
+
+p {
+    margin-left: 50px;
+    font-size: 3em; /* change 16px to the desired font size */
+  }
+
+
+
+h2, h3, h4, h5 {
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    margin-left: 40px;
+    text-decoration: underline;
+}
+h1{
+    color:rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    font-size: 4em;
+    margin-left: 40px;
+    
+
+}
+h10 {
+    color:rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+    margin-left: 0px;
+    text-decoration: underline;
+    margin-bottom: 150px;
+    
+
+}
+.report-container h10 {
+    margin-bottom: 20px; /* Adjust this value to change the space after the title */
+}
+h6 {
+    color:rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    font-size: 5em;
+    margin-left: 40px;
+    font-weight: bold;
+    
+    
+}
+h9 {
+    color:rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    font-size: 5em;
+    margin-left: 40px;
+    text-decoration: underline;
+    
+}
+h4{
+    text-align: center;
+}
+h2 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+ul {
+    
+    list-style-type: none;
+    margin-left: 1em;
+}
+
+li {
+    
+    margin-bottom: 0.5em;
+}
+
+img {
+    width: auto;
+    height: auto;
+}
+
+
+
+.step-container {
+    list-style-type: decimal;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-bottom: 1em;
+    margin-left: 100px; 
+}
+
+.step-contain li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+.step-image {
+    margin-left: 50px;
+    width: auto;
+    height: auto;
+  }
+.step-text {
+    margin-left: 1em;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgb(255, 255, 255);
+    z-index: 1;
+  }
+  
+  .dropdown-content {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-content li {
+    width: 100%;
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  
+  .dropdown-content li:last-child {
+    border-bottom: none;
+  }
+  
+  .dropdown-content li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(5, 0, 0);
+  }
+  
+  .dropdown-content li:hover > a {
+    background-color: #fffcfc;
+    
+    color: red;
+    text-decoration: underline;
+  }
+  
+  .nav-item:hover .dropdown {
+    display: grid;
+
+    width: 200px;
+  }
+  
+.settings-table {
+    
+    width: 50%;
+    border-collapse: collapse;
+    margin-left: 100px;
+    
+}
+
+.settings-table td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.settings-table th {
+    width: 50%;
+    padding:10px;
+    font-size: 14px;
+    line-height: 1.2;
+    border: 1px solid #ddd;
+    background-color: rgb(204, 199, 199);
+}
+
+.save-button {
+    display: block;
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.settings-container {
+    margin-top: 150px; /* Adjust this value to fit your header height */
+}
+
+.save-button:hover {
+    background-color: #45a049;
+}
+
+.report-container {
+    
+    margin-top: 170px;
+    margin-bottom: 20px;
+}
+  
+.transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+  
+.transaction-table th,
+.transaction-table td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+  
+.transaction-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+  
+.tip-input {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+  
+.submit-button {
+    display: block;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.submit-button:hover {
+    background-color: #45a049;
+}
+  

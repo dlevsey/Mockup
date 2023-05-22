@@ -1,0 +1,77 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Transaction Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+          <img src="icon.png" alt="Logo" class="logo">
+          <h1 class="title">Transaction Details</h1>
+        </div>
+        <div class="header-right">
+          
+          <nav class="navbar">
+            <div class="nav-item">
+              <a class="nav-button" href="#home">Home</a>
+            </div>
+            <div class="nav-item">
+              <a class="nav-button" href="#home">Main Menu</a>
+                <div class = "dropdown">
+                  <ul class="dropdown-content">
+                          <li><a href="main two.html">Transaction Adjust</a></li>
+                        
+                  </ul>
+                </div>
+            </div>
+            <div class="nav-item">
+              <a class="nav-button">Admin</a>
+              <div class="dropdown">
+                <ul class="dropdown-content">
+                  <li><a href="payment preferences.html">Payment Preferences</a></li>
+                  <li><a href="#Other-Settings">Other Settings</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="nav-item">
+              <a class="nav-button" href="main menu.html">FAQ</a>
+            </div>
+            <div class="nav-item">
+              <a class="nav-button" href="#contact">Contact</a>
+            </div>
+          </nav>
+        
+      </header>
+
+      
+
+      <div class="report-container">
+        
+        <table class="transaction-table">
+          <thead>
+            <tr>
+              <th>Transaction ID</th>
+              <th>Date</th>
+              <th>Customer</th>
+              <th>Total Amount</th>
+              <th>Tip Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Add your table rows here -->
+            <tr>
+              <td>1</td>
+              <td>2023-04-15</td>
+              <td>John Doe</td>
+              <td>$100.00</td>
+              <td><input type="text" class="tip-input" placeholder="Enter tip amount"></td>
+            </tr>
+            <!-- ... -->
+          </tbody>
+        </table>
+        <button class="submit-button">Submit</button>
+      </div>
+</body>
+</html>      
